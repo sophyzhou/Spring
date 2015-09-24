@@ -1,6 +1,8 @@
 #Spring-Overview 
 
-**Spring framework** is an open source Java platform that provides comprehensive infrastructure support for developing robust Java applications very easily and very rapidly.
+**Spring framework** is an open source Java platform released in 2003 and written by Rod Johnson, which provides comprehensive infrastructure support for developing robust Java applications. Millions of developers around the world use Spring Framework to create high performing, easily testable, reusable code.
+
+The core features of the Spring Framework can be used in developing any Java application, but there are extensions for building web applications on top of the Java EE platform. Spring framework targets to make J2EE development easier to use and promote good programming practice by enabling a POJO-based programming model.
 
 
 ##Benefit of using Spring 
@@ -14,6 +16,17 @@
 
 
 ##Architecture
+Spring could potentially be a one-stop shop for all your enterprise applications, however, Spring is modular, allowing you to pick and choose which modules are applicable to you, without having to bring in the rest. Following section gives detail about all the modules available in Spring Framework.
+
+The Spring Framework provides about 20 modules which can be used based on an application requirement.
+
+![spring framework](/picture/spring framework overview.png
+picture is from:http://docs.spring.io/spring-framework/docs/3.0.x/reference/overview.html
+
+
+ 
+
+
 
 ###Core container
 **Core**
