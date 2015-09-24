@@ -20,7 +20,7 @@ Spring could potentially be a one-stop shop for all your enterprise applications
 
 The Spring Framework provides about 20 modules which can be used based on an application requirement.
 
-![Alt text](/picture/spring framework overview.png
+![Alt text](/picture/spring framework overview.png)
 picture is from:http://docs.spring.io/spring-framework/docs/3.0.x/reference/overview.html
 
 
