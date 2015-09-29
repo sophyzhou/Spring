@@ -377,10 +377,11 @@ Constructor|Similar to byType, but type applies to constructor arguments. If the
 autodetect|	It is deprecated since Spring 3.
 
 ###Autowiring Disadvantages:
-Though, autowiring can significantly reduce the need to specify properties or constructor arguments, there are still some disadvantages we could not ignore:
-1. **Overriding possibility**. We can still specify dependencies using <**constructor-arg**> and <**property**> settings which will always override autowiring.
-2. **Primitive data types**. We cannot autowire  simple properties such as primitives, Strings, and Classes.
-3. **Confusing nature**.  Autowiring is less exact than explicit wiring, so if possible prefer using explict wiring.
+Though, autowiring can significantly reduce the need to specify properties or constructor arguments, there are still some disadvantages we could not ignore:  
+
+- **Overriding possibility**. We can still specify dependencies using <**constructor-arg**> and <**property**> settings which will always override autowiring.
+- **Primitive data types**. We cannot autowire  simple properties such as primitives, Strings, and Classes.
+- **Confusing nature**.  Autowiring is less exact than explicit wiring, so if possible prefer using explict wiring.
 
 
 
