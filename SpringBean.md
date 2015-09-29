@@ -10,15 +10,24 @@ A bean is an object that is instantiated, assembled and managed by a Spring IoC 
 
 Those information translate to a set of properties that make up each bean definition which we will discuss in the following contents.
 
-[<i class="icon-refresh"></i> class](#class)
-[<i class="icon-refresh"></i> name](#name)
- [<i class="icon-refresh"></i> scope](#scope)
-  [<i class="icon-refresh"></i> constructor arguments](#constructor_arguments)
-  [<i class="icon-refresh"></i> properties](#properties)
-  [<i class="icon-refresh"></i> autowiring mode](#autowiring_mode)
-  [<i class="icon-refresh"></i> lazy-initialization method](#lazy-initialization_method)
- [<i class="icon-refresh"></i> initialization method](#initialization)
- [<i class="icon-refresh"></i> destruction method](#destruction)
+[<i class="icon-refresh"></i> class](#class)  
+
+[<i class="icon-refresh"></i> name](#name)  
+
+ [<i class="icon-refresh"></i> scope](#scope)  
+
+  [<i class="icon-refresh"></i> constructor arguments](#constructor_arguments)  
+
+  [<i class="icon-refresh"></i> properties](#properties)  
+
+  [<i class="icon-refresh"></i> autowiring mode](#autowiring_mode)  
+
+  [<i class="icon-refresh"></i> lazy-initialization method](#lazy-initialization_method)  
+
+ [<i class="icon-refresh"></i> initialization method](#initialization)  
+
+ [<i class="icon-refresh"></i> destruction method](#destruction)  
+
  There are three important methods to provide configuration metadata to the Spring Container:
 
 
@@ -222,22 +231,34 @@ public class MainApp {
 ```
 In the above XML file, the id of bean is helloWorld, and the related class is HelloWorld. The scope of the bean is singleton. The initation method is init() and the destroy method is destroy(). The result of the above code is:
 
->This will be executed before Initialization
-Bean is going through init.
-This will be executed after Initialization
-The Message : I am the first object
-The Message : I am the first object
-Bean is going through destroy.
+>This will be executed before Initialization  
+
+>Bean is going through init.  
+
+>This will be executed after Initialization  
+
+>The Message : I am the first object  
+
+>The Message : I am the first object  
+
+>Bean is going through destroy.
 
 The class of HelloWorld can be just instantialized once.
 If the scope changes to prototype,  we will got:
->This will be executed before Initialization
-Bean is going through init.
-This will be executed after Initialization
-The Message : I am the first object
-This will be executed before Initialization
-Bean is going through init.
-This will be executed after Initialization
-The Message : Default Value
+>This will be executed before Initialization  
+
+>Bean is going through init.  
+
+>This will be executed after Initialization  
+
+>The Message : I am the first object  
+
+>This will be executed before Initialization  
+
+>Bean is going through init.  
+
+>This will be executed after Initialization  
+
+>The Message : Default Value
 
 The bean can have two instances when using prototype.
