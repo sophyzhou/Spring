@@ -5,12 +5,18 @@ Dependency Injection (DI) is a design pattern that removes the dependency from t
 
 We are going to talk about dependency injection following the steps as below: 
 
- [<i class="icon-file"></i> Dependency Lookup](#dependency-lookup)
- [<i class="icon-file"></i> Problems of dependency lookup](#problems-of-dependency-lookup)
- [<i class="icon-file"></i> Dependency injection types and examples](#dependency-injection-types-and-examples)
-   [<i class="icon-file"></i>  Injecting Collection](#injecting-collection)
-  [<i class="icon-file"></i> Autowiring](#autowiring)
- [<i class="icon-file"></i> Summary](#summary)
+ [<i class="icon-file"></i> Dependency Lookup](#dependency-lookup)  
+
+ [<i class="icon-file"></i> Problems of dependency lookup](#problems-of-dependency-lookup)  
+
+ [<i class="icon-file"></i> Dependency injection types and examples](#dependency-injection-types-and-examples)  
+
+ [<i class="icon-file"></i>  Injecting Collection](#injecting-collection)  
+
+  [<i class="icon-file"></i> Autowiring](#autowiring)  
+
+ [<i class="icon-file"></i> Summary](#summary)  
+
  
  
   
