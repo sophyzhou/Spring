@@ -5,12 +5,18 @@ Dependency Injection (DI) is a design pattern that removes the dependency from t
 
 We are going to talk about dependency injection following the steps as below: 
 
- [<i class="icon-file"></i> Dependency Lookup](#dependency-lookup)
- [<i class="icon-file"></i> Problems of dependency lookup](#problems-of-dependency-lookup)
- [<i class="icon-file"></i> Dependency injection types and examples](#dependency-injection-types-and-examples)
-   [<i class="icon-file"></i>  Injecting Collection](#injecting-collection)
-  [<i class="icon-file"></i> Autowiring](#autowiring)
- [<i class="icon-file"></i> Summary](#summary)
+ [<i class="icon-file"></i> Dependency Lookup](#dependency-lookup)  
+
+ [<i class="icon-file"></i> Problems of dependency lookup](#problems-of-dependency-lookup)  
+
+ [<i class="icon-file"></i> Dependency injection types and examples](#dependency-injection-types-and-examples)  
+
+ [<i class="icon-file"></i>  Injecting Collection](#injecting-collection)  
+
+  [<i class="icon-file"></i> Autowiring](#autowiring)  
+
+ [<i class="icon-file"></i> Summary](#summary)  
+
  
  
   
@@ -328,14 +334,18 @@ Following is the configuration file **Beans.xml** which has configuration for th
 </beans>
 ```
 
+  
 
 ###Constructor Injection vs Setter Injection.
 
 There are many key differences between constructor injection and setter injection.
 
-1. **Partial dependency**: can be injected using setter injection but it is not possible by constructor. Suppose there are 3 properties in a class, having 3 arg constructor and setters methods. In such case, if you want to pass information for only one property, it is possible by setter method only.
-2. **Overriding**: Setter injection overrides the constructor injection. If we use both constructor and setter injection, IOC container will use the setter injection.
-3. **Changes**: We can easily change the value by setter injection. It doesn't create a new bean instance always like constructor. So setter injection is flexible than constructor injection.
+1. **Partial dependency**: can be injected using setter injection but it is not possible by constructor. Suppose there are 3 properties in a class, having 3 arg constructor and setters methods. In such case, if you want to pass information for only one property, it is possible by setter method only.  
+
+2. **Overriding**: Setter injection overrides the constructor injection. If we use both constructor and setter injection, IOC container will use the setter injection.  
+
+3. **Changes**: We can easily change the value by setter injection. It doesn't create a new bean instance always like constructor. So setter injection is flexible than constructor injection.  
+
 
 ##Injecting Collection
 We  have seen how to configure primitive data type using value attribute and object references using ref attribute of the <**property**> tag in  Bean configuration file. These cases deal with passing singular value to a bean. Now what about if we want to pass plural values like Java Collection types List, Set, Map, and Properties. To handle the situation, Spring offers four types of collection configuration elements which are as follows:
@@ -367,10 +377,11 @@ Constructor|Similar to byType, but type applies to constructor arguments. If the
 autodetect|	It is deprecated since Spring 3.
 
 ###Autowiring Disadvantages:
-Though, autowiring can significantly reduce the need to specify properties or constructor arguments, there are still some disadvantages we could not ignore:
-1. **Overriding possibility**. We can still specify dependencies using <**constructor-arg**> and <**property**> settings which will always override autowiring.
-2. **Primitive data types**. We cannot autowire  simple properties such as primitives, Strings, and Classes.
-3. **Confusing nature**.  Autowiring is less exact than explicit wiring, so if possible prefer using explict wiring.
+Though, autowiring can significantly reduce the need to specify properties or constructor arguments, there are still some disadvantages we could not ignore:  
+
+- **Overriding possibility**. We can still specify dependencies using <**constructor-arg**> and <**property**> settings which will always override autowiring.
+- **Primitive data types**. We cannot autowire  simple properties such as primitives, Strings, and Classes.
+- **Confusing nature**.  Autowiring is less exact than explicit wiring, so if possible prefer using explict wiring.
 
 
 
