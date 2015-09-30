@@ -1,4 +1,4 @@
-Bean overview
+#Spring Bean 
 ------------------------
 
 A bean is an object that is instantiated, assembled and managed by a Spring IoC container. A Spring IoC container manages one or more beans. These beans are created with the configuration metadata that you supply to the container. The configuration metadata include three informations:

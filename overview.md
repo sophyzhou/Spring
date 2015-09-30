@@ -1,11 +1,11 @@
-#Spring-Overview 
+#Spring-Overview
 
 **Spring framework** is an open source Java platform released in 2003 and written by Rod Johnson, which provides comprehensive infrastructure support for developing robust Java applications. Millions of developers around the world use Spring Framework to create high performing, easily testable, reusable code.
 
 The core features of the Spring Framework can be used in developing any Java application, but there are extensions for building web applications on top of the Java EE platform. Spring framework targets to make J2EE development easier to use and promote good programming practice by enabling a POJO-based programming model.
 
 
-##Benefit of using Spring 
+##Benefit of using Spring
 * Works on POJOs. Hence easier for dependency injection/injection of test data.
 * With the Dependency Injection approach, dependencies are explicit and evident in constructor or JavaBean properties.
 * Enhances modularity. Provides more readable codes.
@@ -28,7 +28,7 @@ The *Core Container* consistes of Core, Bean, Context and Spring-Expression-Lang
 ***Core**:It provides the fundamental parts of the framework, including the IoC and Dependency Injection features.
 ***Beans**:It provides *BeanFactory* that is a sophisticated implementation of the factory pattern. It removes the need for programmatic singletons and allows decoupling the configuration and specification of dependencies from actual program logic.
 ***Context**:It builds on the solid base provided by the Core and Beans modules and it is a medium to access any objects defined and configured. The ApplicationContext interface is the focal point of the Context module.
-***SpEL**:It provides a powerful Expression Language for querying and manipulating an object graph at runtime. 
+***SpEL**:It provides a powerful Expression Language for querying and manipulating an object graph at runtime.
 
 
 ###Data Access/Integration
