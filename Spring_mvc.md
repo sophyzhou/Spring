@@ -22,7 +22,9 @@ We are going to talk about Spring MVC Framework as the following steps:
 ##DispatcherServlet
 The Spring MVC framework is designed around a DispatcherServlet that works as the front controller and manage the flow of the spring MVC application. The HTTP request processing workflow of the Spring Web MVC *DispatcherServlet* is illustrated in the following diagram:
 
-![Alt text](/picture/dispatcherservlet.png)
+![Alt text](/picture/dispatcherservlet.png)  
+Reference: http://docs.spring.io/spring/docs/2.5.6/reference/mvc.html  
+
 
 Following is the sequence of events corresponding to an incoming HTTP request to DispatcherServlet:
 
