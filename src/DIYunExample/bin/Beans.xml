@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-4.2.xsd">
+
+   <!-- Definition for employee bean -->
+   <bean id="employee" class="Spring_framework_example.Employee">
+      <constructor-arg ref="address"/>
+   </bean>
+
+   <!-- Definition for address bean -->
+   <bean id="address" class="Spring_framework_example.Address">
+   </bean>
+
+</beans>
