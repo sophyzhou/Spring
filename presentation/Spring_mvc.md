@@ -159,6 +159,8 @@ Spring MVC supports many types of views for different presentation technologies.
 
 Here **${message}** is the attribute which we have setup inside the Controller. 
 
+For the details of the sample code, please check [src](/src).
+
 [HOME](README.md)  
 [NEXT](Reference.md)
 
