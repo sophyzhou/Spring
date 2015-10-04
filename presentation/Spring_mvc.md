@@ -17,10 +17,8 @@ We are going to talk about Spring MVC Framework as the following steps:
 
    [<i class="icon-file"></i>Controller](#controller)  
 
-      [<i class="icon-file"></i>JSP Views](#jsp-views)  
-
-
-
+   [<i class="icon-file"></i>JSP Views](#jsp-views)  
+  
 
  
 ##DispatcherServlet
