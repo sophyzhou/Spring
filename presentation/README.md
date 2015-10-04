@@ -7,18 +7,18 @@ This is the presentation 1 for Fall 2015 CSCI 5828 class. This presentation give
 
 ##Table of Contents    
 
-1. [Overview of Spring Framework](presentation/Overview.md)
+1. [Overview of Spring Framework](Overview.md)
 
-2. [Spring IoC](presentation/SpringIoC.md)
+2. [Spring IoC](SpringIoC.md)
 
-3. [Spring Bean](presentation/SpringBean.md)
+3. [Spring Bean](SpringBean.md)
 
-4. [Dependency Injector](presentation/Dependency Injector.md)
+4. [Dependency Injector](Dependency Injector.md)
 
-5. [Spring AOP](presentation/SpringAOP.md)
+5. [Spring AOP](SpringAOP.md)
 
-6. [Spring MVC](presentation/Spring_mvc.md)
+6. [Spring MVC](Spring_mvc.md)
 
-7. [Reference](presentation/Reference.md)
+7. [Reference](Reference.md)
 
 8. [Sample code](/src)
