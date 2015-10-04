@@ -262,3 +262,8 @@ If the scope changes to prototype,  we will got:
 >The Message : Default Value
 
 The bean can have two instances when using prototype.
+
+[HOME](README.md)   
+
+
+[NEXT](Dependency Injector.md)

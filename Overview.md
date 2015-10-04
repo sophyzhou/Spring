@@ -58,5 +58,6 @@ The **Web-Portlet** module provides the MVC implementation to be used in a Portl
 
 **In our presentation, we will give an introduction about IOC, beans, independency injector, AOP and Spring MVC. We also run serveral JAVA projects to illustrate how to deploy the Spring Framework.** 
 
-[HOME](README.md)
+[HOME](README.md)  
+
 [NEXT](SpringIoC.md)
