@@ -7,11 +7,11 @@ This is the presentation 1 for Fall 2015 CSCI 5828 class. This presentation give
 
 ##Table of Contents    
 
-1. [Overview](presentation/Overview.md)
+1. [Overview of Spring Framework](presentation/Overview.md)
 
-2. [SpringIoC](presentation/SpringIoC.md)
+2. [Spring IoC](presentation/SpringIoC.md)
 
-3. [SpringBean](presentation/SpringBean.md)
+3. [Spring Bean](presentation/SpringBean.md)
 
 4. [Dependency Injector](presentation/Dependency Injector.md)
 
@@ -21,4 +21,4 @@ This is the presentation 1 for Fall 2015 CSCI 5828 class. This presentation give
 
 7. [Reference](presentation/Reference.md)
 
-8. [Sample_code](/src)
+8. [Sample code](/src)
