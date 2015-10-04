@@ -1,4 +1,4 @@
-#Spring Bean 
+#Spring Bean
 ------------------------
 
 A bean is an object that is instantiated, assembled and managed by a Spring IoC container. A Spring IoC container manages one or more beans. These beans are created with the configuration metadata that you supply to the container. The configuration metadata include three informations:
@@ -159,7 +159,7 @@ If there are too many beans having initialization and/or destroy methods with th
 So far, we have learned how to define a bean in XML--based configuration metadata. Now let's take an example to make all the contents above together.
 ```
 // this is the class file
-package springtutorial;
+package spring;
 public class HelloWorld {
    private String message;
    public void setMessage(String message){
@@ -178,7 +178,7 @@ public class HelloWorld {
 ```
 ```
 //this is the BeanPostProcessor file
-package springtutorial;
+package spring;
 import org.springframework.beans.factory.config.BeanPostProcessor;
 import org.springframework.beans.BeansException;
 public class InitHelloWorld implements BeanPostProcessor {
@@ -194,7 +194,7 @@ public class InitHelloWorld implements BeanPostProcessor {
 ```
 ```
 //this is the main function
-package springtutorial;
+package spring;
 
 import org.springframework.context.support.AbstractApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -220,12 +220,12 @@ public class MainApp {
     xsi:schemaLocation="http://www.springframework.org/schema/beans
     http://www.springframework.org/schema/beans/spring-beans-4.2.xsd">
 
-   <bean id="helloWorld" class="springtutorial.HelloWorld" scope="singleton"
+   <bean id="helloWorld" class="spring.HelloWorld" scope="singleton"
        init-method="init" destroy-method="destroy">
        <property name="message" value="Default Value"/>
    </bean>
 
-   <bean class="springtutorial.InitHelloWorld" />
+   <bean class="spring.InitHelloWorld" />
 
 </beans>
 ```
