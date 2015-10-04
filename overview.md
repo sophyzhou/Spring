@@ -1,4 +1,4 @@
-#Spring-Overview
+#Spring Overview
 
 **Spring framework** is an open source Java platform released in 2003 and written by Rod Johnson, which provides comprehensive infrastructure support for developing robust Java applications. Millions of developers around the world use Spring Framework to create high performing, easily testable, reusable code.
 
@@ -20,8 +20,8 @@ Spring could potentially be a one-stop shop for all your enterprise applications
 
 The Spring Framework provides about 20 modules which can be used based on an application requirement.
 
-![Alt text](/picture/spring framework overview.png)
-picture is from:http://docs.spring.io/spring-framework/docs/3.0.x/reference/overview.html
+![Alt text](/picture/spring framework overview.png)  
+Reference:http://docs.spring.io/spring-framework/docs/3.0.x/reference/overview.html
 
 ###Core container
 The *Core Container* consistes of Core, Bean, Context and Spring-Expression-Language(SpEL) modules.
@@ -54,6 +54,3 @@ The **Web-MVC** module (also known as the Web-Servlet module) contains Spring’
 The **Web-Socket** module provides support for WebSocket-based, two-way communication between client and server in web applications.
 
 The **Web-Portlet module provides the MVC implementation to be used in a Portlet environment and mirrors the functionality of the spring-webmvc module.
-
-
-###Miscellaneous

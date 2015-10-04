@@ -159,7 +159,7 @@ If there are too many beans having initialization and/or destroy methods with th
 So far, we have learned how to define a bean in XML--based configuration metadata. Now let's take an example to make all the contents above together.
 ```
 // this is the class file
-package com.tutorialspoint;
+package springtutorial;
 public class HelloWorld {
    private String message;
    public void setMessage(String message){
@@ -178,7 +178,7 @@ public class HelloWorld {
 ```
 ```
 //this is the BeanPostProcessor file
-package com.tutorialspoint;
+package springtutorial;
 import org.springframework.beans.factory.config.BeanPostProcessor;
 import org.springframework.beans.BeansException;
 public class InitHelloWorld implements BeanPostProcessor {
@@ -194,7 +194,7 @@ public class InitHelloWorld implements BeanPostProcessor {
 ```
 ```
 //this is the main function
-package com.tutorialspoint;
+package springtutorial;
 
 import org.springframework.context.support.AbstractApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -220,12 +220,12 @@ public class MainApp {
     xsi:schemaLocation="http://www.springframework.org/schema/beans
     http://www.springframework.org/schema/beans/spring-beans-4.2.xsd">
 
-   <bean id="helloWorld" class="com.tutorialspoint.HelloWorld" scope="singleton"
+   <bean id="helloWorld" class="springtutorial.HelloWorld" scope="singleton"
        init-method="init" destroy-method="destroy">
        <property name="message" value="Default Value"/>
    </bean>
 
-   <bean class="com.tutorialspoint.InitHelloWorld" />
+   <bean class="springtutorial.InitHelloWorld" />
 
 </beans>
 ```
