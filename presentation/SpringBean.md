@@ -82,6 +82,14 @@ global-session  |Scopes a bean definition to a global HTTP session. Only valid i
    <!-- collaborators and configuration for this bean go here -->
 </bean>
 ```
+constructor_arguments
+---------------------------------
+properties
+---------------------------
+autowiring_mode
+---------------------------------------
+Those three parts will be introduced in Dependency Injection.
+
 lazy-initialization_method
 --------------------------------------
 By default, ApplicationContext implementations eagerly create and configure all singleton beans as part of the initialization process. When this behavior is not desirable, we can prevent pre-instantiation of a singleton bean by marking the bean definition as lazy-initialized. A lazy-initialized bean tells the IoC container to create a bean instance when it is first requested, rather than at startup.
