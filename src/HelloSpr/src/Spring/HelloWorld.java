@@ -1,4 +1,4 @@
-package com.tutorialspoint;
+package spring;
 
 public class HelloWorld {
    private String message;
