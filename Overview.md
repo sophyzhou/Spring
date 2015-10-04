@@ -25,10 +25,10 @@ Reference:http://docs.spring.io/spring-framework/docs/3.0.x/reference/overview.h
 
 ###Core container
 The *Core Container* consistes of Core, Bean, Context and Spring-Expression-Language(SpEL) modules.
-***Core**:It provides the fundamental parts of the framework, including the IoC and Dependency Injection features.
-***Beans**:It provides *BeanFactory* that is a sophisticated implementation of the factory pattern. It removes the need for programmatic singletons and allows decoupling the configuration and specification of dependencies from actual program logic.
-***Context**:It builds on the solid base provided by the Core and Beans modules and it is a medium to access any objects defined and configured. The ApplicationContext interface is the focal point of the Context module.
-***SpEL**:It provides a powerful Expression Language for querying and manipulating an object graph at runtime.
+- **Core**:It provides the fundamental parts of the framework, including the IoC and Dependency Injection features.
+- **Beans**:It provides *BeanFactory* that is a sophisticated implementation of the factory pattern. It removes the need for programmatic singletons and allows decoupling the configuration and specification of dependencies from actual program logic.
+- **Context**:It builds on the solid base provided by the Core and Beans modules and it is a medium to access any objects defined and configured. The ApplicationContext interface is the focal point of the Context module.
+- **SpEL**:It provides a powerful Expression Language for querying and manipulating an object graph at runtime.
 
 
 ###Data Access/Integration
@@ -53,4 +53,10 @@ The **Web-MVC** module (also known as the Web-Servlet module) contains Spring’
 
 The **Web-Socket** module provides support for WebSocket-based, two-way communication between client and server in web applications.
 
-The **Web-Portlet module provides the MVC implementation to be used in a Portlet environment and mirrors the functionality of the spring-webmvc module.
+The **Web-Portlet** module provides the MVC implementation to be used in a Portlet environment and mirrors the functionality of the spring-webmvc module.
+
+
+**In our presentation, we will give an introduction about IOC, beans, independency injector, AOP and Spring MVC. We also run serveral JAVA projects to illustrate how to deploy the Spring Framework.** 
+
+[HOME](README.md)
+[NEXT](SpringIoC.md)
