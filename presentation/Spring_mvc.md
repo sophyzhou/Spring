@@ -41,6 +41,7 @@ All the above mentioned components ie. *HandlerMapping*, *Controller* and *ViewR
 The request that *DispatcherServlet* is going to handle is needed to be mapped by using a URL in **Web.xml** file. Now we are giving an example to show declaration and mapping for **Spring_web_mvc** *DispatcherServlet*.
 
 First of all, we build a JAVA dynamic web project named **Spring_web_mvc**, and create the java class and configuration files like below: 
+
 ![Alt text](/picture/spring_example.png)
 
 ```  
