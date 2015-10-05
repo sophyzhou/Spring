@@ -14,21 +14,15 @@ Those information translate to a set of properties that make up each bean defini
 
 [<i class="icon-refresh"></i> name](#name)  
 
- [<i class="icon-refresh"></i> scope](#scope)  
+[<i class="icon-refresh"></i> scope](#scope)  
 
-  [<i class="icon-refresh"></i> constructor arguments](#constructor_arguments)  
+[<i class="icon-refresh"></i> lazy-initialization method](#lazy-initialization_method)  
 
-  [<i class="icon-refresh"></i> properties](#properties)  
+[<i class="icon-refresh"></i> initialization method](#initialization)  
 
-  [<i class="icon-refresh"></i> autowiring mode](#autowiring_mode)  
+[<i class="icon-refresh"></i> destruction method](#destruction)  
 
-  [<i class="icon-refresh"></i> lazy-initialization method](#lazy-initialization_method)  
-
- [<i class="icon-refresh"></i> initialization method](#initialization)  
-
- [<i class="icon-refresh"></i> destruction method](#destruction)  
-
- There are three important methods to provide configuration metadata to the Spring Container:
+There are three important methods to provide configuration metadata to the Spring Container:
 
 
  - XML based configuration file
@@ -83,13 +77,6 @@ global-session  |Scopes a bean definition to a global HTTP session. Only valid i
    <!-- collaborators and configuration for this bean go here -->
 </bean>
 ```
-constructor_arguments
----------------------------------
-properties
----------------------------
-autowiring_mode
----------------------------------------
-Those three parts will be introduced in Dependency Injection.
 
 lazy-initialization_method
 --------------------------------------
