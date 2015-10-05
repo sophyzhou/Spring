@@ -43,16 +43,12 @@ Class
 ----------
 A bean definition is a recipe for creating objects. The container looks at the recipe for a named bean when asked and uses the configuration metadata encapsulated by that bean definition to create an actual object. Based on this definition, the class attribute is mandatory.  The object to be instantiated in the **class** attribute of the < **bean/**> element.
 ```
-
 <!-- A simple bean definition -->
 < bean id="..." class="...">
 <!-- collaborators and configuration for this bean go here -->
 < /bean>
-<<<<<<< HEAD
 ```  
-=======
-```
->>>>>>> e60092ccde72e917e83d87e58c6f63397abafb6f
+
 
 Name
 -----------------
