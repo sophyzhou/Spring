@@ -116,5 +116,7 @@ public static void main(String[] args) {
 ```
 With this simple example, Spring JDBC template class  can executes SQL queries, update statements and stored procedure calls. Instance of the JDBC template class are threadsafe once configured. So we can configure a single instance of a JdbcTemplate and then safely inject this shared reference into multiple DAOs.
 
-[HOME](README.md)
+[HOME](README.md)  
+
+ 
 [NEXT](Spring_mvc.md)
