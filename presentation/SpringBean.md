@@ -44,8 +44,8 @@ A bean definition is a recipe for creating objects. The container looks at the r
 ```  
 
 
-Name
------------------
+Name  
+--------------
 Every bean has one or more identifiers. These identifiers must be unique within the container that hosts the bean. A bean usually has only one identifier, but if it requires more than one, the extra ones can be considered aliases. In XML based configuration metadata, the id and/or name attributes to specify the bean identifier.
 Specifying all aliases where the bean is actually defined is desirable to introduce an alias for a bean that is defined elsewhere. This is commonly the case in large systems where configuration is split amongst each subsystem, each subsystem having its own set of object definitions. In XML-based configuration metadata, you can use the <**alias/**> element to accomplish this.
 ```
