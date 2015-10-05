@@ -14,21 +14,15 @@ Those information translate to a set of properties that make up each bean defini
 
 [<i class="icon-refresh"></i> name](#name)  
 
- [<i class="icon-refresh"></i> scope](#scope)  
+[<i class="icon-refresh"></i> scope](#scope)  
 
-  [<i class="icon-refresh"></i> constructor arguments](#constructor_arguments)  
+[<i class="icon-refresh"></i> lazy-initialization method](#lazy-initialization_method)  
 
-  [<i class="icon-refresh"></i> properties](#properties)  
+[<i class="icon-refresh"></i> initialization method](#initialization)  
 
-  [<i class="icon-refresh"></i> autowiring mode](#autowiring_mode)  
+[<i class="icon-refresh"></i> destruction method](#destruction)  
 
-  [<i class="icon-refresh"></i> lazy-initialization method](#lazy-initialization_method)  
-
- [<i class="icon-refresh"></i> initialization method](#initialization)  
-
- [<i class="icon-refresh"></i> destruction method](#destruction)  
-
- There are three important methods to provide configuration metadata to the Spring Container:
+There are three important methods to provide configuration metadata to the Spring Container:
 
 
  - XML based configuration file
@@ -43,15 +37,15 @@ Class
 ----------
 A bean definition is a recipe for creating objects. The container looks at the recipe for a named bean when asked and uses the configuration metadata encapsulated by that bean definition to create an actual object. Based on this definition, the class attribute is mandatory.  The object to be instantiated in the **class** attribute of the < **bean/**> element.
 ```
-
 <!-- A simple bean definition -->
 < bean id="..." class="...">
 <!-- collaborators and configuration for this bean go here -->
 < /bean>
-```
+```  
 
-Name
------------------
+
+Name  
+--------------
 Every bean has one or more identifiers. These identifiers must be unique within the container that hosts the bean. A bean usually has only one identifier, but if it requires more than one, the extra ones can be considered aliases. In XML based configuration metadata, the id and/or name attributes to specify the bean identifier.
 Specifying all aliases where the bean is actually defined is desirable to introduce an alias for a bean that is defined elsewhere. This is commonly the case in large systems where configuration is split amongst each subsystem, each subsystem having its own set of object definitions. In XML-based configuration metadata, you can use the <**alias/**> element to accomplish this.
 ```
@@ -83,13 +77,6 @@ global-session  |Scopes a bean definition to a global HTTP session. Only valid i
    <!-- collaborators and configuration for this bean go here -->
 </bean>
 ```
-constructor_arguments
----------------------------------
-properties
----------------------------
-autowiring_mode
----------------------------------------
-Those three parts will be introduced in Dependency Injection.
 
 lazy-initialization_method
 --------------------------------------
