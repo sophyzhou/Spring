@@ -48,7 +48,8 @@ A bean definition is a recipe for creating objects. The container looks at the r
 < bean id="..." class="...">
 <!-- collaborators and configuration for this bean go here -->
 < /bean>
-```
+```  
+
 Name
 ----------
 Every bean has one or more identifiers. These identifiers must be unique within the container that hosts the bean. A bean usually has only one identifier, but if it requires more than one, the extra ones can be considered aliases. In XML based configuration metadata, the id and/or name attributes to specify the bean identifier.
